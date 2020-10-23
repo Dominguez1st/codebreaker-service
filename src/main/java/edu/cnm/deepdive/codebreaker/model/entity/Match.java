@@ -153,6 +153,11 @@ public class Match {
     this.winner = winner;
   }
 
+  @NonNull
+  public List<User> getPlayers() {
+    return players;
+  }
+
   public enum Criterion {
     GUESSES_TIME, TIME_GUESSES
   }
